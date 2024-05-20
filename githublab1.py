@@ -2,7 +2,7 @@
 # Sample run:
 # Enter the number of minutes:  1000000000
 # 1000000000 minutes is approximately 1902 years and 214 days
-minute= int(input('Enter the number of minute: '))
+minute= int(input('Enter the number of minutes: '))
 total_day= minute//(60*24)
 total_year= total_day//365
 remain_day= total_day%365
