@@ -9,4 +9,4 @@ day = Minutes/60/24
 year = day/365
 remaining_day =  day % 365
 
-print(f'{Minutes} minutes is approximately {year} year(s) and {remaining_day} days')
+print(f'{Minutes} minutes is approximately {year:.0f} year(s) and {remaining_day:.0f} days')
