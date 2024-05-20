@@ -16,4 +16,4 @@ if (number_of_days > 1 and number_of_days < 365):
     print (number_of_days ,"days")
 number_of_years = number_of_days / 365
 number_remainingdays = number_of_days%365
-print (inputuser ,"minutes is approximately" ,number_of_years ,"and ", number_remainingdays ,"days")
+print (inputuser ,"minutes is approximately" ,number_of_years ,"years and ", number_remainingdays ,"days")
