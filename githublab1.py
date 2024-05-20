@@ -5,16 +5,10 @@
 
 ask_user = int(input("Enter the minutes: "))
 
+total_day = ask_user / (60 * 24)
 
-def min_to_year_day(minute):
-    total_day = minute / (60 * 24)
-    
-    years = total_day // 365
-    
-    remaining_days = total_day % 365
-    
-    return years, remaining_days
+years = total_day // 365
 
-years, days= min_to_year_day(ask_user)
+remaining_days = total_day % 365
 
-print(f"{ask_user} minutes is approximately {years:.0f} years and {days:.0f} days.")    
+print(f"{ask_user} minutes is approximately {years:.0f} years and {remaining_days:.0f} days.")    
