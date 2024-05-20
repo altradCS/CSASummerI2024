@@ -7,7 +7,7 @@ minute = int(input("Enter minute: "))
 
 total_day = minute / (60 * 24)
 total_year = int(total_day / 365)
-remain_day = total_day % 365
+remain_day = int(total_day % 365)
 
 print(f"{minute} minutes is approximately {total_year} years and {remain_day} days.")
 
