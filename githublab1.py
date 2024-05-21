@@ -5,8 +5,8 @@
 
 minutes = int(input("Enter the number of minutes: "))
 
-total_days = minutes/60 * 24
-years = total_days/365
+total_days = minutes//(60*24)
+years = total_days//365
 remaining_days = total_days%365
 
-print(f"{minutes} minutes is approximately {years} and {remaining_days}")
+print(f"{minutes} minutes is approximately {years} years and {remaining_days} days.")
